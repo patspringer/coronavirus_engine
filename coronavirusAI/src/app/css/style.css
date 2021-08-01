@@ -1,0 +1,207 @@
+.font-icon:hover .glyph-icon{
+    -fx-fill:  red;
+}
+.font-icon {
+    -fx-background-color: #242a31;
+}
+.main-screen-button {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: lightgray;
+}
+.main-screen-button:hover {
+    -fx-text-fill: #851ec7;
+    -fx-background-color: transparent;
+    -fx-border-color: #851ec7;
+}
+.list-buttons {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-background-color: transparent;
+}
+.list-buttons:hover {
+    -fx-text-fill: #851ec7;
+    -fx-font-size: 14px;
+    -fx-background-color: transparent;
+}
+.stack-buttons {
+    -fx-text-fill: white;
+    -fx-background-color: transparent;
+    -fx-border-color: #6423cc;
+}
+.stack-buttons:hover {
+    -fx-text-fill: #851ec7;
+    -fx-background-color: transparent;
+}
+.stack-icons {
+    -fx-background-color: #3fea5e;
+}
+.stack-icons:hover {
+    -fx-fill: #6423cc;
+}
+.exit-icons {
+    -fx-background-color: lightgray;
+}
+.exit-icons:hover {
+    -fx-fill: red;
+}
+.chart-plot-background{
+    -fx-background-color: #34495e;
+}
+NumberAxis{
+    -fx-background-color: #353b48;
+}
+CategoryAxis{
+    -fx-background-color: #353b48;
+}
+.chart-horizontal-grid-lines{
+    -fx-stroke: #353b48;
+}
+.chart-title {
+  -fx-text-fill: #242a31;
+  -fx-font-size: 1.6em;
+}
+.jfx-date-picker .jfx-text-field{
+  -jfx-unfocus-color: white;
+  -fx-text-fill: white;
+}
+.jfx-time-picker .jfx-text-field{
+  -jfx-unfocus-color: white;
+  -fx-text-fill: white;
+}
+
+.table-view .column-header,
+.table-view .column-header-background .filler {
+    -fx-background-color:  #3f8fe8;
+}
+.table-view .column-header .label{
+   -fx-text-fill: white;
+   -fx-font-weight: bold;
+   -fx-alignment: CENTER;
+}
+.table-view .cell{
+  -fx-cell-size: 35;
+  -fx-alignment: center-left;
+  -fx-background-color: #29292D;
+  -fx-border-color: #29292D;
+  -fx-text-fill: lightgray;
+  -fx-alignment: CENTER;
+
+}
+.table-row-cell:selected {
+   -fx-background-color: whitesmoke;
+   -fx-text-background-color:  #6622CC;
+
+
+}
+
+/* scroll bar starts here */
+
+/* The increment and decrement button CSS class of scrollbar */
+.table-view .increment-button ,.table-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-background-radius: 2em;
+
+}
+
+/* The main scrollbar **track** CSS class  */
+.table-view .scroll-bar:horizontal .track,
+.table-view .scroll-bar:vertical .track{
+	-fx-background-color: transparent;
+	-fx-border-color:derive( #6622CC,80%);
+
+	-fx-background-radius: 2em;
+	-fx-border-radius:2em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.table-view .scroll-bar:horizontal .thumb,
+.table-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive( #6622CC,90%);
+	-fx-background-insets: 2, 0, 0;
+	-fx-background-radius: 2em;
+
+}
+
+/* chart properties */
+
+.chart {
+    -fx-padding: 10px;
+    -fx-background-color: transparent;
+    -fx-legend-visible: false;
+}
+.chart-plot-background {
+    -fx-background-color:transparent;
+}
+
+.chart-pie {
+    -fx-border-color: derive(-fx-pie-color, 1%);
+    -fx-border-width: 0px;
+}
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+    -fx-background-color: gray;
+    -fx-text-fill: black;
+}
+.list-cell {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-alignment: center;
+}
+/* The main scrollbar CSS class of ListView */
+.list-view .scroll-bar:horizontal ,
+.list-view  .scroll-bar:vertical{
+    -fx-background-color:transparent;
+
+}
+
+/* The increment and decrement button CSS class of scrollbar */
+.list-view .increment-button ,.list-view .decrement-button {
+    -fx-background-color:transparent;
+	-fx-border-color:derive(gray,80%);
+}
+
+/* The main scrollbar **track** CSS class  */
+.list-view .scroll-bar:horizontal .track ,
+.list-view .scroll-bar:vertical .track{
+     -fx-background-color: transparent;
+	 -fx-border-color:derive(gray,80%);
+	 -fx-background-radius: 0em;
+}
+
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.list-view .scroll-bar:horizontal .thumb,
+.list-view .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(black,90%);
+	-fx-background-insets: 0, 0, 0;
+	-fx-background-radius: 0em;
+
+}
+
+/* ------------------------------------------------------------------------------------- */
+/** EVENT CSS **/
+/* ------------------------------------------------------------------------------------- */
+
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+
+.list-view .scroll-bar:horizontal:hover .track ,
+.list-view .scroll-bar:horizontal:pressed .track ,
+.list-view .scroll-bar:vertical:hover .track,
+.list-view .scroll-bar:vertical:pressed .track{
+     -fx-background-color: derive(#434343,20%);
+
+	 -fx-opacity: 0.2;
+	 -fx-background-radius: 0em;
+
+}
+
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.list-view .scroll-bar .thumb:hover,
+.list-view .scroll-bar .thumb:pressed{
+    -fx-background-color: derive(black,50%);
+}
+
+.list-view .increment-button:hover ,.list-view .decrement-button:hover {
+    -fx-background-color:derive(gray,100%);
+}
+
+

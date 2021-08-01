@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="casetrackerScreen" prefHeight="607.0" prefWidth="758.0" style="-fx-background-color: #242d31;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controllers.caseTrackerScreen">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <Label fx:id="totalcasesText" alignment="CENTER" layoutX="136.0" layoutY="126.0" prefHeight="37.0" prefWidth="192.0" text="Total Cases" textAlignment="CENTER" textFill="#851ec7">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="newcasesText" alignment="CENTER" layoutX="409.0" layoutY="126.0" prefHeight="37.0" prefWidth="192.0" text="Total New Cases" textAlignment="CENTER" textFill="#851ec7">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="totalCases" alignment="CENTER" contentDisplay="CENTER" layoutX="149.0" layoutY="175.0" prefHeight="37.0" prefWidth="163.0" textAlignment="CENTER" textFill="#ff4a4a">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="totalNewCases" alignment="CENTER" contentDisplay="CENTER" layoutX="418.0" layoutY="175.0" prefHeight="37.0" prefWidth="174.0" textAlignment="CENTER" textFill="#6dff4d">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="totaldeathsText" alignment="CENTER" layoutX="253.0" layoutY="299.0" prefHeight="37.0" prefWidth="231.0" text="Total Deaths" textFill="#851ec7">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="totalDeaths" alignment="CENTER" contentDisplay="CENTER" layoutX="287.0" layoutY="347.0" prefHeight="37.0" prefWidth="163.0" textAlignment="CENTER" textFill="#ff4a4a">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <JFXButton layoutX="645.0" layoutY="30.0" onMouseClicked="#showcasesToday" prefHeight="48.0" prefWidth="92.0" styleClass="stack-buttons" text="Today" />
+      <JFXButton layoutX="645.0" layoutY="100.0" onMouseClicked="#showcasesYesterday" prefHeight="48.0" prefWidth="92.0" styleClass="stack-buttons" text="Yesterday" />
+      <JFXButton layoutX="645.0" layoutY="170.0" onMouseClicked="#showpercentIncrease" prefHeight="48.0" prefWidth="92.0" styleClass="stack-buttons" text="\% Increase" />
+   </children>
+</Pane>

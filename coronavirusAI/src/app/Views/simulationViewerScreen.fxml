@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="simulationViewerScreen" prefHeight="607.0" prefWidth="758.0" style="-fx-background-color: #242d31;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controllers.simulationViewerScreen">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <Label alignment="CENTER" layoutX="223.0" layoutY="112.0" prefHeight="37.0" prefWidth="312.0" style="-fx-text-fill: #6423cc;" text="Loading Mathematics..." textAlignment="CENTER" textFill="#6423cc">
+         <font>
+            <Font name="Haettenschweiler" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</Pane>

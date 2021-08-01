@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="heatmapScreen" prefHeight="607.0" prefWidth="758.0" style="-fx-background-color: #242d31;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controllers.heatMapScreen">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <Label fx:id="newYork" alignment="CENTER" layoutX="23.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="newJersey" alignment="CENTER" layoutX="128.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="michigan" alignment="CENTER" layoutX="233.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="california" alignment="CENTER" layoutX="338.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="louisiana" alignment="CENTER" layoutX="443.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="florida" alignment="CENTER" layoutX="548.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="massachusetts" alignment="CENTER" layoutX="653.0" layoutY="76.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="16.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="pennsylvania" alignment="CENTER" layoutX="23.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="illinois" alignment="CENTER" layoutX="128.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="washington" alignment="CENTER" layoutX="233.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="georgia" alignment="CENTER" layoutX="338.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="texas" alignment="CENTER" layoutX="443.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="connecticut" alignment="CENTER" layoutX="548.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="colorado" alignment="CENTER" layoutX="653.0" layoutY="140.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="indiana" alignment="CENTER" layoutX="23.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="ohio" alignment="CENTER" layoutX="128.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="tennessee" alignment="CENTER" layoutX="233.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="maryland" alignment="CENTER" layoutX="338.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="northCarolina" alignment="CENTER" layoutX="443.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="virginia" alignment="CENTER" layoutX="548.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="missouri" alignment="CENTER" layoutX="653.0" layoutY="204.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="arizona" alignment="CENTER" layoutX="23.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="wisconsin" alignment="CENTER" layoutX="128.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="southCarolina" alignment="CENTER" layoutX="233.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="nevada" alignment="CENTER" layoutX="338.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="mississippi" alignment="CENTER" layoutX="443.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="alabama" alignment="CENTER" layoutX="548.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="utah" alignment="CENTER" layoutX="653.0" layoutY="268.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="oklahoma" alignment="CENTER" layoutX="23.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="idaho" alignment="CENTER" layoutX="128.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="oregon" alignment="CENTER" layoutX="233.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="minnesota" alignment="CENTER" layoutX="338.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="kentucky" alignment="CENTER" layoutX="443.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="columbia" alignment="CENTER" layoutX="548.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="iowa" alignment="CENTER" layoutX="653.0" layoutY="332.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="arkansas" alignment="CENTER" layoutX="23.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="rhodeIsland" alignment="CENTER" layoutX="128.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="kansas" alignment="CENTER" layoutX="233.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="newHampshire" alignment="CENTER" layoutX="338.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="17.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="maine" alignment="CENTER" layoutX="443.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" textAlignment="CENTER" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="newMexico" alignment="CENTER" layoutX="548.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="delaware" alignment="CENTER" layoutX="653.0" layoutY="396.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="vermont" alignment="CENTER" layoutX="23.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="hawaii" alignment="CENTER" layoutX="128.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="nebraska" alignment="CENTER" layoutX="233.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="montana" alignment="CENTER" layoutX="338.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="westVirginia" alignment="CENTER" layoutX="443.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="18.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="southDakota" alignment="CENTER" layoutX="548.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="northDakota" alignment="CENTER" layoutX="653.0" layoutY="460.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="wyoming" alignment="CENTER" layoutX="23.0" layoutY="524.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="alaska" alignment="CENTER" layoutX="128.0" layoutY="524.0" prefHeight="55.0" prefWidth="91.0" style="-fx-background-color: #3fea5e; -fx-background-radius: 15px;" wrapText="true">
+         <font>
+            <Font name="Haettenschweiler" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow blurType="TWO_PASS_BOX" />
+         </effect>
+      </Label>
+      <Label fx:id="heatmapTitle" alignment="CENTER" layoutX="238.0" layoutY="26.0" prefHeight="37.0" prefWidth="282.0" style="-fx-text-fill: #6423cc;" text="States Listed" textFill="#6423cc">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXListView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import org.kordamp.ikonli.javafx.FontIcon?>
+
+<Pane fx:id="bigdatafeedScreen" prefHeight="607.0" prefWidth="758.0" style="-fx-background-color: #242d31;" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.Controllers.bigdataFeedScreen">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <JFXButton layoutX="63.0" layoutY="417.0" prefHeight="48.0" prefWidth="117.0" ripplerFill="#6423cc" styleClass="stack-buttons" text="Top Posts" />
+      <JFXButton layoutX="211.0" layoutY="417.0" prefHeight="48.0" prefWidth="117.0" ripplerFill="#6423cc" styleClass="stack-buttons" text="New Posts" />
+      <JFXListView fx:id="socialFeed" layoutX="63.0" layoutY="86.0" prefHeight="297.0" prefWidth="632.0" style="-fx-background-color: #242d31;" />
+      <FontIcon iconColor="#3fea5e" iconLiteral="fa-youtube" iconSize="40" layoutX="370.0" layoutY="455.0" onMouseClicked="#showyoutubeFeed" styleClass="stack-icons" />
+      <FontIcon iconColor="#3fea5e" iconLiteral="fa-reddit" iconSize="40" layoutX="424.0" layoutY="455.0" onMouseClicked="#showredditFeed" styleClass="stack-icons" />
+      <Label fx:id="socialFeedTitle" alignment="CENTER" layoutX="217.0" layoutY="35.0" prefHeight="37.0" prefWidth="312.0" style="-fx-text-fill: #6423cc;" text="Trending Reddit Posts" textAlignment="CENTER" textFill="#6423cc">
+         <font>
+            <Font name="Haettenschweiler" size="35.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Label>
+      <FontIcon iconColor="#3fea5e" iconLiteral="fa-twitter" iconSize="40" layoutX="485.0" layoutY="458.0" onMouseClicked="#showtwitterFeed" styleClass="stack-icons" />
+   </children>
+</Pane>
